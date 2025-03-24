@@ -78,7 +78,7 @@ const RightSection = () => {
                   d="M64 32C28.7 32 0 60.7 0 96l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 32zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 288zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
                 />
               </svg>
-              <span className="text-green-400 font-medium mr-1">Uptime </span> 3 days, 5 hours
+              <span className="text-green-400 font-medium mr-1">Uptime </span> 3 days 5 hours
             </div>
 
             {/* Ping Block */}
@@ -115,13 +115,13 @@ const RightSection = () => {
             </h3>
             <p className="text-sm text-gray-400">Basic commands to get bot information, check versions, and list available commands.</p>
             <div className='flex flex-row gap-2 mt-1.5 '>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 server-details
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 user-growth
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 server-acticity
               </span>
             </div>
@@ -132,13 +132,13 @@ const RightSection = () => {
             <h3 className="text-lg font-semibold text-blue-400 mb-2 flex flex-row items-center justify-start gap-2">File & Message Management <FaFileAlt /></h3>
             <p className="text-sm text-gray-400">Commands to manage files, clear messages, move content, and analyze or summarize data.</p>
             <div className='flex flex-row gap-2 mt-1.5 '>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 ls -s "ext"
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 mov "channel"
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 c "int"
               </span>
             </div>
@@ -150,13 +150,13 @@ const RightSection = () => {
             </h3>
             <p className="text-sm text-gray-400">Tools to generate images, analyze media, send images, and retrieve content from APIs.</p>
             <div className='flex flex-row gap-2 mt-1.5 '>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 /imagine "prompt"
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 create "prompt"
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 i2t
               </span>
             </div>
@@ -168,10 +168,10 @@ const RightSection = () => {
             </h3>
             <p className="text-sm text-gray-400">Commands to join, leave, play, manage music, and perform text-to-speech in voice channels.</p>
             <div className='flex flex-row gap-2 mt-1.5 '>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 play
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 server-song-track
               </span>
             </div>
@@ -183,13 +183,13 @@ const RightSection = () => {
             </h3>
             <p className="text-sm text-gray-400">Manage users, roles, command access, and limit command usage efficiently.</p>
             <div className='flex flex-row gap-2 mt-1.5 '>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 lu -types
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 wlcm-to-hell
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 mute "user" "time"
               </span>
             </div>
@@ -201,13 +201,13 @@ const RightSection = () => {
             </h3>
             <p className="text-sm text-gray-400">Custom commands for developers, API integrations, and slash command utilities.</p>
             <div className='flex flex-row gap-2 mt-1.5 '>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 /yt-details
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 git "username"
               </span>
-              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+              <span className="bg-[#253142] text-[#3a7bdd] flex items-center justify-center text-xs font-semibold px-3 py-1 rounded-lg">
                 run "lang" "code"
               </span>
             </div>

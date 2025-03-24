@@ -178,6 +178,7 @@ const LeftSection = () => {
             </svg>
           </button>
         </div>
+        <p className='text-center mt-6 text-md text-gray-500'>Joined in 29 March 2025</p>
       </div>
     </div>
   );
