@@ -14,7 +14,7 @@ const RightSection = () => {
       {/* Background with grid only */}
       <div className="absolute inset-0 z-0">
         {/* Grid background with fade out at edges */}
-        <div 
+        <div
           className="absolute inset-0"
           style={{
             backgroundImage: `
@@ -27,7 +27,7 @@ const RightSection = () => {
           }}
         />
       </div>
-      
+
       {/* Content (z-index ensures it appears above the background) */}
       <div className="relative z-10">
         {/* Heading */}
@@ -106,6 +106,7 @@ const RightSection = () => {
           </div>
         </div>
 
+
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto cursor-pointer font-mono">
           {/* Grid Item 1 */}
@@ -113,12 +114,34 @@ const RightSection = () => {
             <h3 className="text-lg font-semibold text-blue-400 flex flex-row items-center justify-start mb-2 gap-2">Bot Information & Basics <HiMiniServerStack />
             </h3>
             <p className="text-sm text-gray-400">Basic commands to get bot information, check versions, and list available commands.</p>
+            <div className='flex flex-row gap-2 mt-1.5 '>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                server-details
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                user-growth
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                server-acticity
+              </span>
+            </div>
           </div>
 
           {/* Grid Item 2 */}
           <div className="bg-[#29292D] border border-gray-700 rounded-lg p-4 transition-colors card">
             <h3 className="text-lg font-semibold text-blue-400 mb-2 flex flex-row items-center justify-start gap-2">File & Message Management <FaFileAlt /></h3>
             <p className="text-sm text-gray-400">Commands to manage files, clear messages, move content, and analyze or summarize data.</p>
+            <div className='flex flex-row gap-2 mt-1.5 '>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                ls -s "ext"
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                mov "channel"
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                c "int"
+              </span>
+            </div>
           </div>
 
           {/* Grid Item 3 */}
@@ -126,6 +149,17 @@ const RightSection = () => {
             <h3 className="text-lg font-semibold text-blue-400 mb-2 flex flex-row items-center justify-start gap-2">Media & Image Generation <MdPermMedia />
             </h3>
             <p className="text-sm text-gray-400">Tools to generate images, analyze media, send images, and retrieve content from APIs.</p>
+            <div className='flex flex-row gap-2 mt-1.5 '>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                /imagine "prompt"
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                create "prompt"
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                i2t
+              </span>
+            </div>
           </div>
 
           {/* Grid Item 4 */}
@@ -133,6 +167,14 @@ const RightSection = () => {
             <h3 className="text-lg font-semibold text-blue-400 mb-2 flex flex-row items-center justify-start gap-2">Music & Voice Channel Features <SiApplemusic />
             </h3>
             <p className="text-sm text-gray-400">Commands to join, leave, play, manage music, and perform text-to-speech in voice channels.</p>
+            <div className='flex flex-row gap-2 mt-1.5 '>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                play
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                server-song-track
+              </span>
+            </div>
           </div>
 
           {/* Grid Item 5 */}
@@ -140,6 +182,17 @@ const RightSection = () => {
             <h3 className="text-lg font-semibold text-blue-400 mb-2 flex flex-row items-center justify-start gap-2">User, Role & Access Management <MdManageAccounts />
             </h3>
             <p className="text-sm text-gray-400">Manage users, roles, command access, and limit command usage efficiently.</p>
+            <div className='flex flex-row gap-2 mt-1.5 '>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                lu -types
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                wlcm-to-hell
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                mute "user" "time"
+              </span>
+            </div>
           </div>
 
           {/* Grid Item 6 */}
@@ -147,12 +200,23 @@ const RightSection = () => {
             <h3 className="text-lg font-semibold text-blue-400 mb-2 flex flex-row items-center justify-start gap-2">Developer Tools & Slash Commands <FaCodeBranch />
             </h3>
             <p className="text-sm text-gray-400">Custom commands for developers, API integrations, and slash command utilities.</p>
+            <div className='flex flex-row gap-2 mt-1.5 '>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                /yt-details
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                git "username"
+              </span>
+              <span className="bg-[#1F2937] text-white border border-blue-400 text-xs font-semibold px-3 py-1 rounded-lg">
+                run "lang" "code"
+              </span>
+            </div>
           </div>
         </div>
 
         <footer className="flex font-medium font-mono flex-row gap-2 p-1 items-center justify-center mt-8">
           Made with ❤️ by Rudra & Powered By
-          <FaPython className='text-green-500 text-xl'/>
+          <FaPython className='text-green-500 text-xl' />
           Discord.py
         </footer>
       </div>
