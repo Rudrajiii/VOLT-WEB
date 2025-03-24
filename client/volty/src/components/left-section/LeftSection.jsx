@@ -28,9 +28,17 @@ const LeftSection = () => {
                 alt="Profile"
                 className="max-w-full max-h-full w-auto h-auto object-contain rounded-full"
               />
+              <div className="absolute lg:left-34 sm:left-0 left-30 w-[100%] lg:w-[130%] mt-5">
+                <div className="bg-[#2F3136] w-full text-white text-sm font-semibold py-2 px-3 rounded-lg shadow-md">
+                  Watching Bleach...💀
+                </div>
+              </div>
             </div>
+
             {/* Online Indicator */}
-            <div className="absolute bottom-1 right-1 w-5 h-5 bg-green-500 rounded-full border-2 border-gray-900"></div>
+            <div className="absolute bottom-4 right-1 w-5 h-5 bg-green-500 rounded-full border-3 border-gray-900"></div>
+            {/* Playing Free Fire Max Status */}
+
           </div>
         </div>
 
@@ -40,16 +48,38 @@ const LeftSection = () => {
       {/* Profile Info */}
       <div className="mt-12 px-2">
         <h2 className="text-2xl font-bold text-blue-400 mb-1">VOLT <span className='bg-[#5865F2] p-1 text-white ml-1 rounded-sm text-sm mb-1'>✓ APP</span></h2>
-        <p className="text-sm text-gray-400 mb-4">@VOLT#4027</p>
+        <p className="text-sm text-gray-400 mb-4 flex gap-1">@VOLT#4027 <span><img 
+          width={20} 
+          height={20} 
+          src="https://cdn.discordapp.com/badge-icons/6f9e37f9029ff57aef81db857890005e.png" 
+          alt="" 
+          className="align-middle" 
+        /></span></p>
+        
 
-        <div className="mt-4 mb-2 flex justify-start gap-4">
-          <button className="bg-gradient-to-r cursor-pointer flex items-center flex-row gap-1 bg-[#5865F2] text-white font-bold py-2 px-4 rounded hover:from-purple-700 hover:to-indigo-700 transition-all">
-          <LuLogIn /> Discord
+        <div class="mt-4 mb-2 flex flex-row justify-start gap-4 max-w-full">
+          <button class="bg-gradient-to-r cursor-pointer flex items-center flex-row gap-1 bg-[#5865F2] text-white font-bold py-2 px-4 rounded hover:from-purple-700 hover:to-indigo-700 transition-all min-w-[120px]">
+            <span><LuLogIn /></span> Invite me
           </button>
-          <button className="bg-[#29292D] font-bold  text-gray-300 cursor-pointer rounded-sm py-2 px-4 border-gray-700 hover:bg-gray-700 transition-colors">
+          <button class="bg-[#29292D] font-bold text-gray-300 cursor-pointer rounded-sm py-2 px-4  hover:bg-gray-700 transition-colors min-w-[120px]">
             Explore More
           </button>
         </div>
+
+        <style>
+          {`
+          @media (max-width: 640px) {
+            button {
+              padding: 0.5rem 1rem; /* Reduced padding (py-2 px-4 -> py-0.5rem px-1rem) */
+              font-size: 0.875rem; /* Smaller font size (14px) */
+              min-width: 90px; /* Reduced minimum width */
+            }
+            .gap-4 {
+              gap: 0.5rem; /* Reduced gap between buttons */
+            }
+          }
+          `}
+        </style>
 
         {/* Description */}
         <h2 className='text-md text-white font-md'>About Me</h2>
