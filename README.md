@@ -20,9 +20,9 @@ Voltron-z is a powerful and feature-rich Discord bot designed to enhance your se
 3. **Enjoy automation & entertainment in your server!**  
 
 ## 🌐 Links  
-- **Website**: [your-website-link](https://volt-web-rose.vercel.app/)  
-- **Support Server**: [your-discord-server](https://discord.gg/jwj7GkXc)  
-- **GitHub**: [your-github-repo](https://github.com/Rudrajiii/VOLT-WEB)  
+- **Website**: [Visit the site](https://volt-web-rose.vercel.app/)  
+- **Support Server**: [Join](https://discord.gg/jwj7GkXc)  
+- **GitHub**: [Here](https://github.com/Rudrajiii/VOLT-WEB)  
 
 ---
 *Made with ❤️ for the Discord community!*  
